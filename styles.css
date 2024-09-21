@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body{
+	 font-family: 'Inter', sans-serif;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	 background-color: RGB(244 103 5);
+}
+.moviePic{
+	 border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	height:250px;
+	width:200px;
+	opacity:0.9;
+}
+.movieDetail{
+	position:relative;
+	top:0;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+}
